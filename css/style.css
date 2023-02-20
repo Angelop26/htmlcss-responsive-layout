@@ -32,7 +32,6 @@ body{
     width: 80%;
     margin: 20px auto;
     /* debug */
-    height: 400px;
     border: 1px solid red;
 }
 
@@ -46,15 +45,20 @@ body{
     border: 1px solid black;
 }
 /* HEADER */
-.header{
-    align-items: center;
-
-    /* debug */
-    background-color: aqua;
-    height: 90px;
-    width: 100%;
+header{
+    background-color: #0084FD;
 }
 
+.header{
+    height: 90px;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.hamburger{
+    color: white;
+    font-size: 2rem;
+}
 .menu{
     display: none; 
 }
@@ -66,6 +70,14 @@ body{
 
 .menu a{
     text-decoration: none;
+    color: white;
+}
+
+a.button{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
 }
 /* MAIN */
 

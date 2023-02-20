@@ -13,7 +13,9 @@
    /* third section */
    .testimonials .card{
     display: flex;
-   }
+    align-items: center;
+    text-align: left;
+    }
 
     /* benefits section */
     .benefits .col{

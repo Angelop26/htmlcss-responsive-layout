@@ -151,7 +151,27 @@ header{
     border-radius: 50%;
 }
 /* testimonials */
+.testimonials{
+    text-align: center;
+}
 
+.testimonials h2{
+    color: #9792E4;
+}
+
+.testimonials .text p{
+    color: white;
+}
+
+.testimonials .col{
+    background-color: #9792E4;
+}
+.testimonials img{
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
 /* FOOTER */
 footer{
     color: white;

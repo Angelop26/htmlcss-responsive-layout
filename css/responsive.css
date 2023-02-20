@@ -19,7 +19,7 @@
 
     /* benefits section */
     .benefits .col{
-        width: calc(100% / 2);
+        width: calc(100% / 2 - 20px);
     }
 
     /* about us section */
@@ -66,8 +66,13 @@
 
     /* benefits section */
     .benefits .col{
-        width: calc(100% / 3);
-    }
+        width: calc(100% / 3 - 20px);
+    }  
+}
 
+@media screen and (min-width: 1200px){
+    .container{
+        width: calc( 60 * 1200px / 100);
+    }
     
 }

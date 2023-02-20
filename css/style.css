@@ -28,6 +28,9 @@ body{
     margin-bottom: 10px;
 }
 
+.mb-20{
+    margin-bottom: 20px;
+}
 .mb-30{
     margin-bottom: 30px;
 }
@@ -53,6 +56,8 @@ body{
     /* debug */
     /* border: 1px solid black; */
 }
+
+
 /* HEADER */
 header{
     background-color: #0084FD;
@@ -172,6 +177,35 @@ header{
     width: 200px;
     border-radius: 50%;
 }
+
+/* benefits */
+.benefits>h2{
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.benefits .col{
+    background-color: white;
+    padding: 1rem;
+    margin: 5px 10px;
+}
+
+.benefits .col h2,
+.benefits .col h3 {
+    color: #9792E4;
+}
+
+.benefits .button{
+    text-decoration: none;
+    color: white;
+    background-color: #9792E4;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+
+
+
 /* FOOTER */
 footer{
     color: white;

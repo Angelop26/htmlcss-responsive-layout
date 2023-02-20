@@ -69,11 +69,17 @@ body{
 }
 /* MAIN */
 
-/* first section */
-
+/* main section */
+.main .text{
+    width: 100%;
+}
 
 /* second section */
 
 /* testimonials */
 
 /* FOOTER */
+footer{
+    color: white;
+    background-color: lightslategray;
+}

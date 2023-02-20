@@ -19,9 +19,19 @@
     .benefits .col{
         width: calc(100% / 2);
     }
+
+    /* about us section */
+    .text.col{
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    /* COMMON */
+    .container{
+        width: 60%;
+    }
+
     /* HEADER */
     .hamburger{
         display: none;
@@ -32,11 +42,10 @@
     }
     
     /* MAIN */
-    /* first section */
-    .container{
-        width: 60%;
+    /* main section */
+    .main .text{
+        width: 50%;
     }
-
     /* second section */
     .works .col{
         width: 50%;

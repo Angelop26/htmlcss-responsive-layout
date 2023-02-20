@@ -1,14 +1,24 @@
 @media screen and (min-width: 768px) {
    
    /* MAIN */
-    .col{
+   /* first section */
+   .main .col{
     width: calc(100% / 3);
    }
    
     .col.large{
     width: calc(100% / 3 * 2);
-   } 
+   }
+   
+   /* third section */
+   .testimonials .card{
+    display: flex;
+   }
 
+    /* benefits section */
+    .benefits .col{
+        width: calc(100% / 2);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -22,8 +32,20 @@
     }
     
     /* MAIN */
-    .row{
+    /* first section */
+    .container{
         width: 60%;
     }
+
+    /* second section */
+    .works .col{
+        width: 50%;
+    }
+
+    /* benefits section */
+    .benefits .col{
+        width: calc(100% / 3);
+    }
+
     
 }

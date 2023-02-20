@@ -103,11 +103,11 @@ header{
 .main .col{
     background-color: #B5DDFF;
 }
-h2{
+.main h2{
     color: #0084FD;
     margin: 15px 0;   
 }
-.entity{
+.main .entity{
     color: #0084FD;
     font-size: 5rem;
 }
@@ -122,6 +122,7 @@ h2{
 }
 
 .container-img{
+    width: 100%;
     padding-top: 30px;
 }
 
@@ -129,7 +130,26 @@ h2{
     padding: 0 10px;
 }
 /* second section */
+.works{
+    text-align: center;
+}
 
+.works h2{
+    font-size: 2.5rem;
+}
+.col.left{
+    color: white;
+    text-align: left;
+}
+.col.right{
+    background-color: white;
+}
+
+.works .entity{
+    background-color: #9792E4;
+    padding: 1rem;
+    border-radius: 50%;
+}
 /* testimonials */
 
 /* FOOTER */

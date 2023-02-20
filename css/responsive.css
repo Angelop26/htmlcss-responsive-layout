@@ -1,7 +1,29 @@
 @media screen and (min-width: 768px) {
-    
+   
+   /* MAIN */
+    .col{
+    width: calc(100% / 3);
+   }
+   
+    .col.large{
+    width: calc(100% / 3 * 2);
+   } 
+
 }
 
 @media screen and (min-width: 992px) {
+    /* HEADER */
+    .hamburger{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+    
+    /* MAIN */
+    .row{
+        width: 60%;
+    }
     
 }

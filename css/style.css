@@ -24,8 +24,16 @@ body{
     justify-content: space-between;
 }
 
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
 .violet{
-    background-color: lightcoral;
+    background-color: #9792E4;
 }
 
 .container{
@@ -40,9 +48,10 @@ body{
 }
 .col{
     width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
     /* debug */
-    height: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 /* HEADER */
 header{
@@ -73,7 +82,8 @@ header{
     color: white;
 }
 
-a.button{
+.menu a.button{
+    display: inline-block;
     color: black;
     background-color: white;
     border-radius: 30px;
@@ -82,10 +92,42 @@ a.button{
 /* MAIN */
 
 /* main section */
+.main{
+    text-align: center;
+}
 .main .text{
     width: 100%;
+    text-align: left;
+    padding: 1rem;
+}
+.main .col{
+    background-color: #B5DDFF;
+}
+h2{
+    color: #0084FD;
+    margin: 15px 0;   
+}
+.entity{
+    color: #0084FD;
+    font-size: 5rem;
+}
+.main a.button{
+    display: inline-block;
+    color: white;
+    background-color: #0084FD;
+    font-size: 1.2rem;
+    padding: 5px 50px;
+    border-radius: 30px;
+    text-decoration: none;
 }
 
+.container-img{
+    padding-top: 30px;
+}
+
+.main p{
+    padding: 0 10px;
+}
 /* second section */
 
 /* testimonials */

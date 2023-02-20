@@ -3,11 +3,11 @@
    /* MAIN */
    /* first section */
    .main .col{
-    width: calc(100% / 3);
+    width: 30%;
    }
    
     .col.large{
-    width: calc(100% / 3 * 2);
+    width: 65%;
    }
    
    /* third section */
@@ -44,6 +44,9 @@
     /* MAIN */
     /* main section */
     .main .text{
+        width: 50%;
+    }
+    .container-img{
         width: 50%;
     }
     /* second section */

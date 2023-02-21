@@ -72,6 +72,11 @@
     .benefits .col{
         width: calc(100% / 3 - 20px);
     }  
+    
+    .cta.container,
+    .footer.container{
+        width: calc(40 * 1200px / 100);
+    }
 }
 
 @media screen and (min-width: 1200px){

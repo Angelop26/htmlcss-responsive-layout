@@ -289,5 +289,19 @@ header{
 /* FOOTER */
 footer{
     color: white;
-    background-color: lightslategray;
+    background-color: #333;
+    text-align: center;
+}
+
+.footer p{
+    margin: 20px 0 30px 0;
+}
+
+.footer a{
+    color: #9792E4;
+}
+
+.cta.container,
+.footer.container{
+    width: 60%;
 }

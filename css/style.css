@@ -129,6 +129,8 @@ header{
 .container-img{
     width: 100%;
     padding-top: 30px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .main p{
@@ -139,8 +141,9 @@ header{
     text-align: center;
 }
 
-.works h2{
+.col.left h2{
     font-size: 2.5rem;
+    margin-top: 6rem;
 }
 .col.left{
     color: white;
@@ -154,6 +157,10 @@ header{
     background-color: #9792E4;
     padding: 1rem;
     border-radius: 50%;
+}
+
+.works .row{
+    align-items: flex-end;
 }
 /* testimonials */
 .testimonials{

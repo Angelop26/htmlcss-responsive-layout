@@ -198,6 +198,7 @@ header{
 }
 
 .benefits .button{
+    display: inline-block;
     text-decoration: none;
     color: white;
     background-color: #9792E4;
@@ -250,7 +251,41 @@ header{
 
 }
 
+/* cta */
+.cta{
+    text-align: center;
+    color: white;
+}
 
+.cta h2{
+    color: #FDC15F;
+    font-size: 2rem;
+}
+.cta h6{
+    margin: 30px 0 10px 0;
+}
+
+.cta .button{
+    display: inline-block;
+    color: #9792E4;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px 60px;
+    text-decoration: none;
+}
+
+.copyright{
+    justify-content: center;
+    gap: 20px;
+}
+
+.copyright ul{
+    list-style-type: initial;
+    gap: 20px;
+}
+.copyright a{
+    color: white;
+}
 /* FOOTER */
 footer{
     color: white;

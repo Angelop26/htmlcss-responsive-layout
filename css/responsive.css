@@ -26,6 +26,10 @@
     .text.col{
         width: 50%;
     }
+
+    .profile{
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 992px) {
